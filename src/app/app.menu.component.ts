@@ -30,6 +30,12 @@ export class AppMenuComponent implements OnInit {
                 items:[              
                     {label: 'Product', icon: 'pi pi-fw pi-user-edit', routerLink: ['/pages/crud']}
                 ]
+            },
+            {
+                label: 'Setting',
+                items:[              
+                    {label: 'User', icon: 'pi pi-fw pi-user-edit', routerLink: ['/']}
+                ]
             }
         ];
     }
